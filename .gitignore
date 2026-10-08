@@ -1,0 +1,18 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# Full Kaggle dataset (download separately; contains runner names)
+data/raw/2023-marathon-results/*
+!data/raw/2023-marathon-results/.gitkeep
+
+# Generated outputs and Quarto intermediates
+outputs/
+/.quarto/
+*_files/
+*.aux
+*.log
+*.out
+*.toc
+*.tex
